@@ -1,0 +1,82 @@
+td{
+    height: 105px;
+    width: 105px;
+   font-size: 50px;
+   text-align: center;
+   
+ }
+ #tbl{
+    border-collapse: collapse;
+    box-sizing: 2px 3px 3px black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8TKhFMycqeqiYoUTUFSuFbETPcTCUrEXQZ4BjGIWnzCZPJ017C3KN8ESef6TcshcO0gU&usqp=CAU");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: azure;
+    margin-right: 200px;
+  }
+ .contant{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 300;
+ 
+ }
+ .game{
+  visibility: hidden;
+ }
+ .score
+ {
+  color:white;
+
+ }
+ body{
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/night-savannah-landscape-natural-african-background-with-hyenas-pack-silhouettes-run-through-field-with-trees-dark-starry-sky-with-full-moon-shining-game-scene-cartoon-vector-illustration_107791-9558.jpg?w=2000");
+  
+}
+ #start{
+  background-color: rgb(88, 246, 77);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px black;
+ }
+ .name{
+  justify-content: center;
+  font-size: 35px;
+  color: aliceblue;
+  margin-left: 250px;
+ }
+ #user1{
+  height: auto;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 8px;
+ }
+ #user2{
+  height: auto;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 8px;
+ }
+ #reset{
+  background-color: red;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+ }
+ #remove{
+  background-color:rgb(66, 240, 66);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+ }
+ h1{
+  color:azure;
+ }
+ #td{
+  border-radius: 8px 5px 5px 5px;
+  height: 50px;
+  width: 150;
+  
+ }

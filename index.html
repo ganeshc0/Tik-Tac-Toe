@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <h1>Game Start</h1>   
+ <div class="contant">
+     <div class="name">
+          Player 1:<input type="text" id="user1">
+          <br><br>
+          Player 2:<input type="text" id="user2">
+          <br><br>
+          <input type ="button" id="start" value="Start Game">
+     </div>
+     <div class="game">
+            <div class="score"> 
+            <table border="2px" id="td"> 
+             <tr>        
+             <th id="name1"></th>
+             <th id="name2"></th>
+             </tr>
+             <tr>
+             <td id="score1"></td>
+             <td id="score2"></td>
+             </tr>
+            </div>
+           </table>
+          <table border="3px" id="tbl">
+               <tr>
+                   <td class="div" id="0"></td>
+                   <td class="div" id="1"></td>
+                   <td class="div" id="2"></td>
+                </tr>
+                <tr>
+                   <td class="div" id="3"></td>
+                   <td class="div" id="4"></td>
+                   <td class="div" id="5"></td>
+                </tr>
+                <tr>
+                   <td class="div" id="6"></td>
+                   <td class="div" id="7"></td>
+                   <td class="div" id="8"></td>
+                </tr>
+
+          </table>
+          <br>
+          <div>
+              <input type="button" id="reset" value="Reset">
+              <input type="button" id="remove" onclick="location.reload()" value="ReStart">
+          </div>
+      </div>
+</div>
+    <script src="js/fun.js"></Script>
+</body>
+</html>
